@@ -1,3 +1,4 @@
 #!/bin/bash
-gcc -c $CFILE
-
+c_file="$CFILE"
+object_file="${c_file%.c}.o
+gcc -c "c_file" -o "$object_file"
